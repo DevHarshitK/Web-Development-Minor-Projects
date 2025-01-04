@@ -13,13 +13,6 @@ body.addEventListener("keypress",function(){
     levelUp();
     }
 });
-body.addEventListener("click",function(){
-    if(started==false){
-    console.log("Game started");
-    started=true;
-    levelUp();
-    }
-});
 function levelUp(){
     userSeq=[];
     level++;
